@@ -538,6 +538,9 @@ You may have to install additional packages if these commands aren't on your sys
 $ sudo apt-get install -y linux-tools-generic linux-tools-$(uname -r) procps binutils
 ```
 
+For maximum usefulness, you should also compile bitcoind with debugging. Release builds of Bitcoin Core
+strip all of the debugging symbols.
+
 See the functional test documentation for how to invoke perf within tests.
 
 
