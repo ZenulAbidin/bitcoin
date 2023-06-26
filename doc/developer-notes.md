@@ -532,6 +532,12 @@ perf report --stdio | c++filt | less
 
 or using a graphical tool like [Hotspot](https://github.com/KDAB/hotspot).
 
+You may have to install additional packages if these commands aren't on your system. For example, on Ubuntu:
+
+```sh
+$ sudo apt-get install -y linux-tools-generic linux-tools-$(uname -r) procps binutils
+```
+
 See the functional test documentation for how to invoke perf within tests.
 
 
